@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header>
+        <div class="gutter-right logo">
+            <img src="assets/big-logo.png" />
+        </div>
+    </header>
+    <main>
+        <section class="main-section">
+            <img class="main-logo" src="assets/alchemy-logo.png" />
+            <h2>
+                Calculator
+            </h2>
+
+            <!-- Addition -->
+            <section>
+                <input type="text" name="add-num-1" id="add-num-1">
+                +
+                <input type="text" name="add-num-2" id="add-num-2">
+                =
+                <div id="add-total"></div>
+                <button id="add-button">Add</button>
+            </section>
+
+            <!-- Subtraction -->
+            <section>
+                <input type="text" name="subtract-num-1" id="subtract-num-1">
+                -
+                <input type="text" name="subtract-num-2" id="subtract-num-2">
+                =
+                <div id="subtract-total"></div>
+                <button id="subtract-button">Subtract</button>
+            </section>
+
+            <!-- Multiply -->
+            <section>
+                <input type="text" name="multiply-num-1" id="multiply-num-1">
+                -
+                <input type="text" name="multiply-num-2" id="multiply-num-2">
+                =
+                <div id="multiply-total"></div>
+                <button id="multiply-button">multiply</button>
+            </section>
+
+            <!-- Divide -->
+            <section>
+                <input type="text" name="divide-num-1" id="divide-num-1">
+                -
+                <input type="text" name="divide-num-2" id="divide-num-2">
+                =
+                <div id="divide-total"></div>
+                <button id="divide-button">divide</button>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
